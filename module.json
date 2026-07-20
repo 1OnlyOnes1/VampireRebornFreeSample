@@ -2,16 +2,32 @@
   "id": "vampire-reborn-free",
   "title": "Vampire Reborn: Free Sample",
   "version": "1.0.0",
+
   "compatibility": {
     "minimum": "13",
     "verified": "14"
   },
+
+  "url": "https://github.com/1OnlyOnes1/VampireRebornFreeSample",
+  "manifest": "https://github.com/1OnlyOnes1/VampireRebornFreeSample/releases/latest/download/module.json",
+  "download": "https://github.com/1OnlyOnes1/VampireRebornFreeSample/releases/latest/download/module.zip",,
+
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  },
+
   "authors": [
     {
       "name": "Only Ones",
       "flags": {}
     }
   ],
+
   "flags": {
     "vampire-reborn-free": {
       "pf2e-homebrew": {
@@ -24,6 +40,7 @@
       }
     }
   },
+
   "packs": [
     {
       "name": "vampire-reborn-free",
@@ -50,5 +67,6 @@
       "flags": {}
     }
   ],
+
   "description": ""
 }
