@@ -1,0 +1,54 @@
+{
+  "id": "vampire-reborn-free",
+  "title": "Vampire Reborn: Free Sample",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Only Ones",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "vampire-reborn-free": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "vampire-spawn": "Vampire Spawn"
+        },
+        "featTraits": {
+          "vampire-spawn": "Vampire Spawn"
+        }
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "vampire-reborn-free",
+      "label": "Vampire Reborn (Free Sample)",
+      "path": "packs/vampire-reborn-free",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "vampire-reborn-journal-free",
+      "label": "Vampire Reborn Journal (Free Sample)",
+      "path": "packs/vampire-reborn-journal-free",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "description": ""
+}
